@@ -1,0 +1,102 @@
+.fundo {
+    background-image: linear-gradient(45deg, rgb(6, 6, 68), rgb(0, 60, 60));
+    height: 100vh;
+}
+
+.calculadora {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.teclas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.igual {
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.sete {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.oito {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.nove {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.quatro {
+    grid-row-start: 3;
+}
+
+.cinco {
+    grid-row-start: 3;
+}
+
+.seis {
+    grid-row-start: 3;
+}
+
+.tres {
+    grid-row-start: 4;
+}
+
+.dois {
+    grid-row-start: 4;
+}
+
+.um {
+    grid-row-start: 4;
+}
+
+.zero {
+    grid-row-start: 5;
+}
+
+.decimal {
+    grid-row-start: 5;
+}
+
+.AC {
+    grid-row-start: 5;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+#resultado {
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}

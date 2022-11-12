@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Cadu Nicodemo</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <script src="calculadora.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Rock+Salt&display=swap');
+    </style>
+    <title>Apps - Cadu Nicodemo</title>
+</head>
+
+<body>
+    <h2 class="site-subtitle">Calculadora</h2>
+    <div class="fundo">
+        <div class="calculadora">
+            <p id="resultado"></p>
+            <div class="teclas">
+                <button class="botao" onclick="insere('+')">+</button>
+                <button class="botao" onclick="insere('-')">-</button>
+                <button class="botao" onclick="insere('*')">X</button>
+                <button class="botao" onclick="insere('/')">/</button>
+                <button class="botao" onclick="insere('7')">7</button>
+                <button class="botao" onclick="insere('8')">8</button>
+                <button class="botao" onclick="insere('9')">9</button>
+                <button class="botao quatro" onclick="insere('4')">4</button>
+                <button class="botao cinco" onclick="insere('5')">5</button>
+                <button class="botao seis" onclick="insere('6')">6</button>
+                <button class="botao tres" onclick="insere('3')">3</button>
+                <button class="botao dois" onclick="insere('2')">2</button>
+                <button class="botao um" onclick="insere('1')">1</button>
+                <button class="botao zero" onclick="insere('0')">0</button>
+                <button class="botao decimal" onclick="insere('.')">.</button>
+                <button class="botao AC" onclick="limpa()">AC</button>
+                <button class="botao volta" onclick="volta()"><</button>
+                <button class="botao igual" style="height: 164px;" onclick="calcular()">=</button>
+            </div>
+        </div>
+
+</body>
+
+</html>
