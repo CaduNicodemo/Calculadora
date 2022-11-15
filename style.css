@@ -79,3 +79,18 @@ body {
     grid-column: -2;
     grid-row: 3 / span 4;
 }
+
+.footer {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
